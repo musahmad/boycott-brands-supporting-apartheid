@@ -64,8 +64,8 @@ function applyBoycott(productTileClassName, tileProp) {
   const matchedBrands = new Set();
   const productTiles = document.getElementsByClassName(productTileClassName);
   const boycottedBrands = companies
-          .map((company) => company.name)
-          .flatMap((company) => brands[company] || company);
+    .map((company) => company.name)
+    .flatMap((company) => brands[company] || company);
 
   Array.from(productTiles).forEach((tile) => {
     const tileText = removeAccents(tile[tileProp]);
@@ -85,7 +85,7 @@ function isBrandFoundInText(brands, text) {
   // iterate over brand and return boolean depending
   // on whether brand has been found in text or not
   const matchedBrand = brands.find(
-    (brand) => textToSearch.search(new RegExp(brand, "gi")) > -1
+    (brand) => textToSearch.search(new RegExp("\\b" + brand + "\\b", "gi")) > -1
   );
 
   return matchedBrand;
@@ -108,7 +108,7 @@ function showFooter(listCompanies) {
   const flag = document.createElement("div");
   const text = document.createElement("div");
   const close = document.createElement("div");
-  
+
   flag.innerText = "🇵🇸";
   flag.style.fontSize = "30px";
   flag.ariaRoleDescription = "Palestinian Flag";
@@ -145,14 +145,15 @@ function removeAccents(text) {
 }
 
 function findCompany(brand) {
-    const matchedEntry = Object.entries(brands).find(([company, brands]) =>
-      brands.includes(brand)
-    );
-    return matchedEntry ? matchedEntry[0] : brand
-  }
+  const matchedEntry = Object.entries(brands).find(([company, brands]) =>
+    brands.includes(brand)
+  );
+  return matchedEntry ? matchedEntry[0] : brand;
+}
 
-function getDescriptions(listCompanies){
+function getDescriptions(listCompanies) {
   return companies
-    .filter(company => listCompanies.includes(company.name))
-    .map(company => company.description).join("");
+    .filter((company) => listCompanies.includes(company.name))
+    .map((company) => company.description)
+    .join("");
 }
