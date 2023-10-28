@@ -107,20 +107,12 @@ function showFooter(listCompanies) {
   const footer = document.createElement("div");
   const text = document.createElement("div");
   const close = document.createElement("div");
-<<<<<<< HEAD
   
   const flag = document.createElement("div");
   const img = document.createElement("img")
   img.src = chrome.runtime.getURL("./logo.png")
   img.width = 80;
   flag.appendChild(img)
-=======
-
-  flag.innerText = "🇵🇸";
-  flag.style.fontSize = "30px";
-  flag.ariaRoleDescription = "Palestinian Flag";
-  flag.ariaLabel = "Palestinian Flag";
->>>>>>> main
   flag.role = "img";
 
   text.innerHTML = `By supporting Israel, ${formattedListCompanies} ${
