@@ -15,6 +15,7 @@ const brands = {
     "Aero",
     "Cailler",
     "KitKat",
+    "Kit Kat",
     "Milkybar",
     "Les Recettes de l'Atelier",
     "Orion",
