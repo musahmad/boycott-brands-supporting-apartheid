@@ -188,6 +188,108 @@ function getClassNames() {
         productTileClass: "s-result-item",
         tileProp: "innerText",
       };
+    case "www.amazon.ca":
+      return {
+        mainContentClass: ["a-aui_72554-c"],
+        productTileClass: "s-result-item",
+        tileProp: "innerText",
+      };
+    case "www.amazon.es":
+      return {
+        mainContentClass: ["a-aui_72554-c"],
+        productTileClass: "s-result-item",
+        tileProp: "innerText",
+      };
+    case "www.amazon.fr":
+      return {
+        mainContentClass: ["a-aui_72554-c"],
+        productTileClass: "s-result-item",
+        tileProp: "innerText",
+      };
+    case "www.amazon.it":
+      return {
+        mainContentClass: ["a-aui_72554-c"],
+        productTileClass: "s-result-item",
+        tileProp: "innerText",
+      };
+    case "www.amazon.co.jp":
+      return {
+        mainContentClass: ["a-aui_72554-c"],
+        productTileClass: "s-result-item",
+        tileProp: "innerText",
+      };
+    case "www.amazon.in":
+      return {
+        mainContentClass: ["a-aui_72554-c"],
+        productTileClass: "s-result-item",
+        tileProp: "innerText",
+      };
+    case "www.amazon.cn":
+      return {
+        mainContentClass: ["a-aui_72554-c"],
+        productTileClass: "s-result-item",
+        tileProp: "innerText",
+      };
+    case "www.amazon.com.sg":
+      return {
+        mainContentClass: ["a-aui_72554-c"],
+        productTileClass: "s-result-item",
+        tileProp: "innerText",
+      };
+    case "www.amazon.com.mx":
+      return {
+        mainContentClass: ["a-aui_72554-c"],
+        productTileClass: "s-result-item",
+        tileProp: "innerText",
+      };
+    case "www.amazon.ae":
+      return {
+        mainContentClass: ["a-aui_72554-c"],
+        productTileClass: "s-result-item",
+        tileProp: "innerText",
+      };
+    case "www.amazon.com.br":
+      return {
+        mainContentClass: ["a-aui_72554-c"],
+        productTileClass: "s-result-item",
+        tileProp: "innerText",
+      };
+    case "www.amazon.nl":
+      return {
+        mainContentClass: ["a-aui_72554-c"],
+        productTileClass: "s-result-item",
+        tileProp: "innerText",
+      };
+    case "www.amazon.com.au":
+      return {
+        mainContentClass: ["a-aui_72554-c"],
+        productTileClass: "s-result-item",
+        tileProp: "innerText",
+      };
+    case "www.amazon.com.tr":
+      return {
+        mainContentClass: ["a-aui_72554-c"],
+        productTileClass: "s-result-item",
+        tileProp: "innerText",
+      };
+    case "www.amazon.sa":
+      return {
+        mainContentClass: ["a-aui_72554-c"],
+        productTileClass: "s-result-item",
+        tileProp: "innerText",
+      };
+    case "www.amazon.se":
+      return {
+        mainContentClass: ["a-aui_72554-c"],
+        productTileClass: "s-result-item",
+        tileProp: "innerText",
+      };
+    case "www.amazon.pl":
+      return {
+        mainContentClass: ["a-aui_72554-c"],
+        productTileClass: "s-result-item",
+        tileProp: "innerText",
+      };
     case "www.flaschenpost.de":
       return {
         mainContentClass: ["body"],

@@ -26,35 +26,20 @@
 
 ### Supermarkets currently supported
 
-#### Czech Republic
+### Australia
+- Amazon
 
-- Albert
-- Lidl
-- Tesco
-- Globus
-- Teta Drogerie
+### Brazil
+- Amazon
 
-#### Estonia
+### Canada
+- Amazon
 
-- Coop
-- Rimi
-- Selver
-- Prisma Peremarket
+### China
+- Amazon
 
-#### Finland
-
-- K-Market
-- Alko
-- Prisma
-- S-Market
-- Sale
-- Alepa
-- Herkku
-- Sokos Herkku
-- Mestarin Herkku
-
-#### France
-
+### France
+- Amazon
 - U
 - Carrefour
 - Intermarché
@@ -62,58 +47,34 @@
 - Franprix
 - Monoprix
 
-#### Germany
-
-- Rewe
+### India
 - Amazon
-- Flaschenpost
-- Bringmeister
-- Lidl
 
-#### Ireland
+### Italy
+- Amazon
 
-- Tesco
-- Dunnes
-- Super Valu
-- Fresh
+### Japan
+- Amazon
 
-#### Latvia
+### Mexico
+- Amazon
 
-- Barbora.lv
-- Rimi
-- Top!
-- Citro
-- Drogas
+### Netherlands
+- Amazon
 
-#### Lithuania
-
-- Lastmile.lt
-- Čia Market
-- Eurokos
-- Vynoteka.lt
-- Rimi
-
-#### Poland
-
+### Poland
+- Amazon
 - Auchan
 - Frisco
 
-#### Romania
+### Saudi Arabia
+- Amazon
 
-- Kaufland
-- Carrefour
-- Mega Image
-- Metro
-- Auchan
+### Singapore
+- Amazon
 
-#### Slovakia
-
-- Alza
-- Mall
-- Tesco
-
-#### Spain
-
+### Spain
+- Amazon
 - Dia
 - Alcampo
 - Carrefour
@@ -124,16 +85,105 @@
 - Caprabo
 - Leclerc
 
-#### Sweden
-
+### Sweden
+- Amazon
 - City Gross
 - Coop
 - ICA
 - Willys
 - Hemkop
 
-#### Ukraine
+### Turkey
+- Amazon
 
+### United Arab Emirates
+- Amazon
+
+### United States
+- Amazon
+- Costco
+- Walmart
+- Target
+- Instacart
+- Google Shopping
+- Kroger
+- Whole Foods
+- Harris Teeter
+- Safeway
+- Food Lion
+- Albertsons
+- Vons
+- Jewel-Osco
+- Acme
+- Stop & Shop
+- Giant Food Stores
+- Giant Food
+- Hannaford
+
+### Czech Republic
+- Albert
+- Lidl
+- Tesco
+- Globus
+- Teta Drogerie
+
+### Estonia
+- Coop
+- Rimi
+- Selver
+- Prisma Peremarket
+
+### Finland
+- K-Market
+- Alko
+- Prisma
+- S-Market
+- Sale
+- Alepa
+- Herkku
+- Sokos Herkku
+- Mestarin Herkku
+
+### Germany
+- Amazon
+- Rewe
+- Flaschenpost
+- Bringmeister
+- Lidl
+
+### Ireland
+- Tesco
+- Dunnes
+- Super Valu
+- Fresh
+
+### Latvia
+- Barbora.lv
+- Rimi
+- Top!
+- Citro
+- Drogas
+
+### Lithuania
+- Lastmile.lt
+- Čia Market
+- Eurokos
+- Vynoteka.lt
+- Rimi
+
+### Romania
+- Kaufland
+- Carrefour
+- Mega Image
+- Metro
+- Auchan
+
+### Slovakia
+- Alza
+- Mall
+- Tesco
+
+### Ukraine
 - Мегамаркет
 - Zakaz
 - Auchan
@@ -153,8 +203,8 @@
 - ek.ua
 - m.ua
 
-#### UK
-
+### UK
+- Amazon
 - Tesco
 - Ocado
 - Sainsburys
@@ -163,30 +213,8 @@
 - Iceland
 - Jiffy
 - Aldi
-- Amazon
 - Waitrose
 
-#### United States
-
-- Costco
-- Walmart
-- Target
-- Instacart
-- Amazon
-- Google Shopping
-- Kroger
-- Whole Foods
-- Harris Teeter
-- Safeway
-- Food Lion
-- Albertsons
-- Vons
-- Jewel-Osco
-- Acme
-- Stop & Shop
-- Giant Food Stores
-- Giant Food
-- Hannaford
 
 ### Screenshots
 
