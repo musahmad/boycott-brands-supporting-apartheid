@@ -95,6 +95,7 @@
 
 ### Turkey
 - Amazon
+- Hepsiburada
 
 ### United Arab Emirates
 - Amazon

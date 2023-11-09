@@ -1,13 +1,13 @@
 window.addEventListener("load", () => {
   console.log("Dom loaded");
   // get the class names
-  const { mainContentClass, productTileClass, tileProp } = getClassNames();
+  const { mainContentClass, productTileClasses, tileProp } = getClassNames();
   // highlight products
-  const matchedCompanies = applyBoycott(productTileClass, tileProp);
+  const matchedCompanies = applyBoycott(productTileClasses, tileProp);
   // action banner
   matchedCompanies.length > 0 ? showFooter(matchedCompanies) : hideFooter();
   // observe the content tag - add children
-  observeDomChanges(mainContentClass, productTileClass, tileProp);
+  observeDomChanges(mainContentClass, productTileClasses, tileProp);
 });
 
 function findContentTag(contentTarget) {
@@ -24,7 +24,7 @@ function findContentTag(contentTarget) {
   return results;
 }
 
-function observeDomChanges(contentClassName, productTileClassName, tileProp) {
+function observeDomChanges(contentClassName, productTileClasses, tileProp) {
   const targetFinder = findContentTag(contentClassName);
   const observer = new MutationObserver((mutations) => {
     mutations.forEach((mutation) => {
@@ -41,7 +41,7 @@ function observeDomChanges(contentClassName, productTileClassName, tileProp) {
             console.log(mutation);
             // highlight products
             const listBoycottedCompanies = applyBoycott(
-              productTileClassName,
+              productTileClasses,
               tileProp
             );
             if (mutation.removedNodes[0]?.className === "palestine-footer") {
@@ -60,15 +60,19 @@ function observeDomChanges(contentClassName, productTileClassName, tileProp) {
   observer.observe(document.body, { subtree: true, childList: true });
 }
 
-function applyBoycott(productTileClassName, tileProp) {
+function applyBoycott(productTileClasses, tileProp) {
   const matchedBrands = new Set();
-  const productTiles = document.getElementsByClassName(productTileClassName);
+  let productTiles = []
+  for (const tileClass of productTileClasses) {
+    productTiles.push(...document.getElementsByClassName(tileClass));
+  }
   const boycottedBrands = companies
     .map((company) => company.name)
     .flatMap((company) => brands[company] || company);
 
   Array.from(productTiles).forEach((tile) => {
-    const tileText = removeAccents(tile[tileProp]);
+    const normalizedTile = getInnerTextWithLineBreaks(tile);
+    const tileText = removeAccents(normalizedTile);
     const matchedBrand = isBrandFoundInText(boycottedBrands, tileText);
     if (matchedBrand) {
       applyBlur(tile);
@@ -158,3 +162,26 @@ function getDescriptions(listCompanies) {
     .map((company) => company.description)
     .join("");
 }
+
+// This function will iterate through all child nodes and construct the text content
+// with line breaks for block-level elements.
+function getInnerTextWithLineBreaks(element) {
+  let text = '';
+  for (const child of element.childNodes) {
+      if (child.nodeType === Node.TEXT_NODE) {
+          text += child.nodeValue + '\n';
+      } else if (child.nodeType === Node.ELEMENT_NODE) {
+          if (window.getComputedStyle(child).display === 'block') {
+              // Before we add the block-level text, we ensure there's a new line if text is not empty
+              if (text !== '') {
+                  text += '\n';
+              }
+              text += getInnerTextWithLineBreaks(child);
+          } else {
+              text += getInnerTextWithLineBreaks(child);
+          }
+      }
+  }
+  return text;
+}
+

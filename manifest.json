@@ -139,7 +139,8 @@
         "https://www.amazon.com.tr/*",
         "https://www.amazon.sa/*",
         "https://www.amazon.se/*",
-        "https://www.amazon.pl/*"
+        "https://www.amazon.pl/*",
+        "https://www.hepsiburada.com/*"
       ],
       "run_at": "document_end"
     }
@@ -259,7 +260,8 @@
     "https://prom.ua/",
     "https://rozetka.com.ua/",
     "https://ek.ua/",
-    "https://m.ua/"
+    "https://m.ua/",
+    "https://www.hepsiburada.com/"
   ],
   "action": {
     "default_icon": "logo.png"
