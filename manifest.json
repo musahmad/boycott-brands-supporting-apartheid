@@ -140,7 +140,8 @@
         "https://www.amazon.sa/*",
         "https://www.amazon.se/*",
         "https://www.amazon.pl/*",
-        "https://www.hepsiburada.com/*"
+        "https://www.hepsiburada.com/*",
+        "https://www.trendyol.com/*"
       ],
       "run_at": "document_end"
     }
@@ -261,7 +262,8 @@
     "https://rozetka.com.ua/",
     "https://ek.ua/",
     "https://m.ua/",
-    "https://www.hepsiburada.com/"
+    "https://www.hepsiburada.com/",
+    "https://www.trendyol.com/"
   ],
   "action": {
     "default_icon": "logo.png"

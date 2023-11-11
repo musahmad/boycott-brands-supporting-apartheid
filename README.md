@@ -96,6 +96,7 @@
 ### Turkey
 - Amazon
 - Hepsiburada
+- Trendyol
 
 ### United Arab Emirates
 - Amazon

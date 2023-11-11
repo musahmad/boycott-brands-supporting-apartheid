@@ -807,6 +807,12 @@ function getClassNames() {
                           ],
         tileProp: "textContent",
       }
+    case "www.trendyol.com":
+      return {
+        mainContentClass: ["prdct-cntnr-wrppr"],
+        productTileClasses: ["p-card-wrppr", "search-store-advs-product-card"],
+        tileProp: "textContent"
+      }
     default:
       return {
         mainContentClass: "",
