@@ -100,6 +100,7 @@
 - N11
 - Cimri
 - Akakçe
+- Teknosa
 
 ### United Arab Emirates
 - Amazon

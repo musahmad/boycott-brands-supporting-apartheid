@@ -832,6 +832,12 @@ function getClassNames() {
         productTileTags: ["li"],
         tileProp: "innerText"
       }
+    case "www.teknosa.com":
+      return {
+        mainContentClass:["products"],
+        productTileClasses: [" prd "],
+        tileProp: "innerText"
+      }
     default:
       return {
         mainContentClass: "",

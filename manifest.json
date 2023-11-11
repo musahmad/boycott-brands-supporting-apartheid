@@ -144,7 +144,8 @@
         "https://www.trendyol.com/*",
         "https://www.n11.com/*",
         "https://www.cimri.com/*",
-        "https://www.akakce.com/*"
+        "https://www.akakce.com/*",
+        "https://www.teknosa.com/*"
       ],
       "run_at": "document_end"
     }
@@ -269,7 +270,8 @@
     "https://www.trendyol.com/",
     "https://www.n11.com/",
     "https://www.cimri.com/",
-    "https://www.akakce.com/"
+    "https://www.akakce.com/",
+    "https://www.teknosa.com/"
   ],
   "action": {
     "default_icon": "logo.png"
