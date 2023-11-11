@@ -838,6 +838,12 @@ function getClassNames() {
         productTileClasses: [" prd "],
         tileProp: "innerText"
       }
+    case "www.mediamarkt.com.tr":
+        return {
+          mainContentClass:["body"],
+          productTileClasses: ["product-wrapper"],
+          tileProp: "innerText"
+        }
     default:
       return {
         mainContentClass: "",
