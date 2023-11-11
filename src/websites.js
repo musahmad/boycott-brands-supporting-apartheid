@@ -819,6 +819,12 @@ function getClassNames() {
         productTileClasses: ["columnContent"],
         tileProp: "textContent"
       }
+    case "www.cimri.com":
+      return {
+        mainContentClass: ["body", "main__content"],
+        productTileClasses: ["ProductList_productContainer__2JTlf", "z7ntrt-0"],
+        tileProp: "textContent"
+      }
     default:
       return {
         mainContentClass: "",

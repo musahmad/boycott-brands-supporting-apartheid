@@ -98,6 +98,7 @@
 - Hepsiburada
 - Trendyol
 - N11
+- Cimri
 
 ### United Arab Emirates
 - Amazon
