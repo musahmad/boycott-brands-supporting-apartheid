@@ -1,13 +1,13 @@
 window.addEventListener("load", () => {
   console.log("Dom loaded");
   // get the class names
-  const { mainContentClass, productTileClasses, tileProp } = getClassNames();
+  const { mainContentClass, productTileClasses, productTileTags, tileProp } = getClassNames();
   // highlight products
-  const matchedCompanies = applyBoycott(productTileClasses, tileProp);
+  const matchedCompanies = applyBoycott(productTileClasses, productTileTags, tileProp);
   // action banner
   matchedCompanies.length > 0 ? showFooter(matchedCompanies) : hideFooter();
   // observe the content tag - add children
-  observeDomChanges(mainContentClass, productTileClasses, tileProp);
+  observeDomChanges(mainContentClass, productTileClasses, productTileTags, tileProp);
 });
 
 function findContentTag(contentTarget) {
@@ -24,7 +24,7 @@ function findContentTag(contentTarget) {
   return results;
 }
 
-function observeDomChanges(contentClassName, productTileClasses, tileProp) {
+function observeDomChanges(contentClassName, productTileClasses, productTileTags, tileProp) {
   const targetFinder = findContentTag(contentClassName);
   const observer = new MutationObserver((mutations) => {
     mutations.forEach((mutation) => {
@@ -42,6 +42,7 @@ function observeDomChanges(contentClassName, productTileClasses, tileProp) {
             // highlight products
             const listBoycottedCompanies = applyBoycott(
               productTileClasses,
+              productTileTags,
               tileProp
             );
             if (mutation.removedNodes[0]?.className === "palestine-footer") {
@@ -60,12 +61,18 @@ function observeDomChanges(contentClassName, productTileClasses, tileProp) {
   observer.observe(document.body, { subtree: true, childList: true });
 }
 
-function applyBoycott(productTileClasses, tileProp) {
+function applyBoycott(productTileClasses, productTileTags, tileProp) {
   const matchedBrands = new Set();
   let productTiles = []
   for (const tileClass of productTileClasses) {
     productTiles.push(...document.getElementsByClassName(tileClass));
   }
+  if (productTileTags !== undefined) {
+    for (const tileTag of productTileTags) {
+      productTiles.push(...document.getElementsByTagName(tileTag));
+    }
+  }
+
   const boycottedBrands = companies
     .map((company) => company.name)
     .flatMap((company) => brands[company] || company);

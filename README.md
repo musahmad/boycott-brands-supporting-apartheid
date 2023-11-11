@@ -99,6 +99,7 @@
 - Trendyol
 - N11
 - Cimri
+- Akakçe
 
 ### United Arab Emirates
 - Amazon

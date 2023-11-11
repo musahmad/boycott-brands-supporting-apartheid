@@ -143,7 +143,8 @@
         "https://www.hepsiburada.com/*",
         "https://www.trendyol.com/*",
         "https://www.n11.com/*",
-        "https://www.cimri.com/*"
+        "https://www.cimri.com/*",
+        "https://www.akakce.com/*"
       ],
       "run_at": "document_end"
     }
@@ -267,7 +268,8 @@
     "https://www.hepsiburada.com/",
     "https://www.trendyol.com/",
     "https://www.n11.com/",
-    "https://www.cimri.com/"
+    "https://www.cimri.com/",
+    "https://www.akakce.com/"
   ],
   "action": {
     "default_icon": "logo.png"

@@ -825,6 +825,13 @@ function getClassNames() {
         productTileClasses: ["ProductList_productContainer__2JTlf", "z7ntrt-0"],
         tileProp: "textContent"
       }
+    case "www.akakce.com":
+      return {
+        mainContentClass:["body"],
+        productTileClasses: ["w", "p_v8"],
+        productTileTags: ["li"],
+        tileProp: "innerText"
+      }
     default:
       return {
         mainContentClass: "",
