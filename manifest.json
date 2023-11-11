@@ -141,7 +141,8 @@
         "https://www.amazon.se/*",
         "https://www.amazon.pl/*",
         "https://www.hepsiburada.com/*",
-        "https://www.trendyol.com/*"
+        "https://www.trendyol.com/*",
+        "https://www.n11.com/*"
       ],
       "run_at": "document_end"
     }
@@ -263,7 +264,8 @@
     "https://ek.ua/",
     "https://m.ua/",
     "https://www.hepsiburada.com/",
-    "https://www.trendyol.com/"
+    "https://www.trendyol.com/",
+    "https://www.n11.com/"
   ],
   "action": {
     "default_icon": "logo.png"

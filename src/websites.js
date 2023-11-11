@@ -813,6 +813,12 @@ function getClassNames() {
         productTileClasses: ["p-card-wrppr", "search-store-advs-product-card"],
         tileProp: "textContent"
       }
+    case "www.n11.com":
+      return {
+        mainContentClass: ["list-ul"],
+        productTileClasses: ["columnContent"],
+        tileProp: "textContent"
+      }
     default:
       return {
         mainContentClass: "",
