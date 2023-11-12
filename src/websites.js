@@ -856,6 +856,12 @@ function getClassNames() {
         productTileClasses: ["product-list"],
         tileProp: "innerText"
       }
+    case "www.boyner.com.tr":
+      return {
+        mainContentClass:["product-list_productListContainer__Tj820"],
+        productTileClasses: ["listProductItem"],
+        tileProp: "innerText"
+      }
     default:
       return {
         mainContentClass: "",

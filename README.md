@@ -104,6 +104,7 @@
 - Mediamarkt
 - D&R
 - Vatan Bilgisayar
+- Boyner
 
 ### United Arab Emirates
 - Amazon
