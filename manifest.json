@@ -146,7 +146,8 @@
         "https://www.cimri.com/*",
         "https://www.akakce.com/*",
         "https://www.teknosa.com/*",
-        "https://www.mediamarkt.com.tr/*"
+        "https://www.mediamarkt.com.tr/*",
+        "https://www.dr.com.tr/*"
       ],
       "run_at": "document_end"
     }
@@ -273,7 +274,8 @@
     "https://www.cimri.com/",
     "https://www.akakce.com/",
     "https://www.teknosa.com/",
-    "https://www.mediamarkt.com.tr/"
+    "https://www.mediamarkt.com.tr/",
+    "https://www.dr.com.tr/"
   ],
   "action": {
     "default_icon": "logo.png"

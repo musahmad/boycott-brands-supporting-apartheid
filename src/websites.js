@@ -844,6 +844,12 @@ function getClassNames() {
           productTileClasses: ["product-wrapper"],
           tileProp: "innerText"
         }
+    case "www.dr.com.tr":
+      return {
+        mainContentClass:["body"],
+        productTileClasses: ["prd"],
+        tileProp: "innerText"
+      }
     default:
       return {
         mainContentClass: "",

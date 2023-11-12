@@ -102,6 +102,7 @@
 - Akakçe
 - Teknosa
 - Mediamarkt
+- D&R
 
 ### United Arab Emirates
 - Amazon
