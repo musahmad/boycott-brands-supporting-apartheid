@@ -95,6 +95,16 @@
 
 ### Turkey
 - Amazon
+- Hepsiburada
+- Trendyol
+- N11
+- Cimri
+- Akakçe
+- Teknosa
+- Mediamarkt
+- D&R
+- Vatan Bilgisayar
+- Boyner
 
 ### United Arab Emirates
 - Amazon

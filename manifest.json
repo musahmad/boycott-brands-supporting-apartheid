@@ -139,7 +139,17 @@
         "https://www.amazon.com.tr/*",
         "https://www.amazon.sa/*",
         "https://www.amazon.se/*",
-        "https://www.amazon.pl/*"
+        "https://www.amazon.pl/*",
+        "https://www.hepsiburada.com/*",
+        "https://www.trendyol.com/*",
+        "https://www.n11.com/*",
+        "https://www.cimri.com/*",
+        "https://www.akakce.com/*",
+        "https://www.teknosa.com/*",
+        "https://www.mediamarkt.com.tr/*",
+        "https://www.dr.com.tr/*",
+        "https://www.vatanbilgisayar.com/*",
+        "https://www.boyner.com.tr/*"
       ],
       "run_at": "document_end"
     }
@@ -259,7 +269,17 @@
     "https://prom.ua/",
     "https://rozetka.com.ua/",
     "https://ek.ua/",
-    "https://m.ua/"
+    "https://m.ua/",
+    "https://www.hepsiburada.com/",
+    "https://www.trendyol.com/",
+    "https://www.n11.com/",
+    "https://www.cimri.com/",
+    "https://www.akakce.com/",
+    "https://www.teknosa.com/",
+    "https://www.mediamarkt.com.tr/",
+    "https://www.dr.com.tr/",
+    "https://www.vatanbilgisayar.com/",
+    "https://www.boyner.com.tr/"
   ],
   "action": {
     "default_icon": "logo.png"
