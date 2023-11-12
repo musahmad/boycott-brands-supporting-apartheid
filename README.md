@@ -103,6 +103,7 @@
 - Teknosa
 - Mediamarkt
 - D&R
+- Vatan Bilgisayar
 
 ### United Arab Emirates
 - Amazon

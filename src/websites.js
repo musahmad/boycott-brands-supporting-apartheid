@@ -850,6 +850,12 @@ function getClassNames() {
         productTileClasses: ["prd"],
         tileProp: "innerText"
       }
+    case "www.vatanbilgisayar.com":
+      return {
+        mainContentClass:["body"],
+        productTileClasses: ["product-list"],
+        tileProp: "innerText"
+      }
     default:
       return {
         mainContentClass: "",
